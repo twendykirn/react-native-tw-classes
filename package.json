@@ -1,6 +1,6 @@
 {
   "name": "react-native-tw-classes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple list of classes from tailwindcss for react-native",
   "main": "index.js",
   "files": [
