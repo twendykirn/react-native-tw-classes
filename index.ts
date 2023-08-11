@@ -114,7 +114,7 @@ export const tw = (className: string, style?: any) => {
                 value = globalStyles[classTitle];
 
                 if (value) {
-                    endStyle[classTitle] = value;
+                    endStyle = { ...endStyle, ...value };
                 }
             }
         }
