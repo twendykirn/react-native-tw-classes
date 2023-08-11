@@ -44,12 +44,12 @@ const createClassesWithColors = (
     let res: Record<string, any> = {};
 
     const colorsKeys = Object.keys(colors);
-    const colorsObjects = Object.values(colors);
 
-    const colorsTitles = Object.keys(colorsObjects);
-    const colorsValues = Object.values(colorsObjects);
+    let colorsTitles, colorsValues;
 
     for (let i = 0; i < colorsKeys.length; i++) {
+        colorsTitles = Object.keys(colors[colorsKeys[i]]);
+        colorsValues = Object.values(colors[colorsKeys[i]]);
         for (let k = 0; k < colorsTitles.length; k++) {
             res = {
                 ...res,
