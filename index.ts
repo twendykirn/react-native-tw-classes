@@ -1,5 +1,34 @@
 import { StyleSheet, Platform, Appearance } from 'react-native';
 
+export { alignContent } from './src/classes/flexbox/alignContent';
+export { alignItems } from './src/classes/flexbox/alignItems';
+export { alignSelf } from './src/classes/flexbox/alignSelf';
+export { flexBasis } from './src/classes/flexbox/flexBasis';
+export { flexDirection } from './src/classes/flexbox/flexDirection';
+export { flexGap } from './src/classes/flexbox/flexGap';
+export { flexGrow } from './src/classes/flexbox/flexGrow';
+export { flexShrink } from './src/classes/flexbox/flexShrink';
+export { flexWrap } from './src/classes/flexbox/flexWrap';
+export { justifyContent } from './src/classes/flexbox/justifyContent';
+export { aspectRatio } from './src/classes/layout/aspectRatio';
+export { display } from './src/classes/layout/display';
+export { overflow } from './src/classes/layout/overflow';
+export { position } from './src/classes/layout/position';
+export { topRightBottomLeft } from './src/classes/layout/topRightBottomLeft';
+export { zIndex } from './src/classes/layout/zIndex';
+export { opacity } from './src/classes/effects/opacity';
+export { borderRadius } from './src/classes/borders/borderRadius';
+export { borderStyle } from './src/classes/borders/borderStyle';
+export { borderWidth } from './src/classes/borders/borderWidth';
+export { height } from './src/classes/sizing/height';
+export { maxHeight } from './src/classes/sizing/maxHeight';
+export { maxWidth } from './src/classes/sizing/maxWidth';
+export { minHeight } from './src/classes/sizing/minHeight';
+export { minWidth } from './src/classes/sizing/minWidth';
+export { width } from './src/classes/sizing/width';
+export { margin } from './src/classes/spacing/margin';
+export { padding } from './src/classes/spacing/padding';
+
 let globalStyles: Record<string, any> = {};
 
 interface InitialStyleObject {

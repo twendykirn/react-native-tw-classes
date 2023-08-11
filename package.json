@@ -7,7 +7,7 @@
     "index.js",
     "index.ts",
     "index.d.ts",
-    "./src/classes/index.ts"
+    "./src/**/*"
   ],
   "scripts": {
     "prepublish": "npm run build",
